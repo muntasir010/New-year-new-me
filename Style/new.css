@@ -1,0 +1,169 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../Images/banner3.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 808px;
+}
+
+.banner-container {
+    text-align: right;
+    padding: 80px 150px 0px 800px;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.header-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.contact-btn {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+/* failure section start */
+.failure-section {
+    display: flex;
+    gap: 140px;
+}
+
+.profile {
+    width: 350px;
+    height: 400px;
+}
+
+.person {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.description {
+    margin-top: 130px;
+    margin-right: 200px;
+}
+
+.description ul>li {
+    list-style-type: none;
+}
+
+.failure-title {
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-description {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.failure-li {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* My plans section */
+.plans-title {
+    margin-top: 120px;
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-plans {
+    display: flex;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 80px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.plans {
+    padding: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 20px 20px 50px 20px rgba(0, 0, 0, 0.08);
+}
+
+.third-section {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.btn-high {
+    padding: 10px 15px;
+    background-color: #f15b22;
+}
+
+.second-profile {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 50px 150px;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    background: #151414;
+    padding: 50px 200px;
+    gap: 200px;
+    color: #F8F8F8;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-2nd-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+#enter{
+    padding: 15px 100px 15px 15px;
+    border-radius: 8px;
+}
+.sub-btn{
+    padding: 12px 22px;
+    background: #005FAC;
+    border-radius: 8px;
+
+}
+/* .social-links{
+    gap: 50px;
+} */
+.contact{
+    color: #FFF;
+}
